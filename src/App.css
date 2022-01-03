@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  border: 1px solid red;
+  margin-top: 100px;
+  height: 470px;
+}
+
+.details-table{
+  overflow-y: auto;
+  height: 200px;
+}
+
+.details-table::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-color: black;
+  color: aliceblue;
+}
+
+.each_div{
+  display: flex;
+  flex-direction: row;
+  /* gap: 150px; */
+  border: 1px solid wheat;
+}
+
+.each_div > h2{
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.head > h2{
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.food_details{
+  /* border: 1px solid wheat; */
+  width: 460px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+  
+}
+.content > div {
+  margin-left: 40px;
+  text-align: left;
+}
+
+table  input{
+  width: 200px;
+  height: 30px;
+}
+
+
+
+.head{
+  display: flex;
+  flex-direction: row;
+  color: blue;
+}
+
+.right-table > table td, th{
+  width: 230px;
+  /* border: 1px solid rgb(143, 86, 207); */
+}
+
+.checkbox > input{
+  width: 15px;
+  height: 15px;
+}
+
+img{
+  width: 70px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
